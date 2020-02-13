@@ -1,0 +1,125 @@
+body { height: 100% }
+.contenedor{
+text-align: center;
+color: white;
+}
+/*fondo para area celeste*/
+.header_area{
+    background-color: #76c7c0;
+
+}
+
+.part2{
+    background-color: #c0c0c0;
+   text-align: center;
+}
+.part3{
+
+    padding-top: 15px;
+}
+/*diseño y transicion de logo*/
+.logo a{
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 80px;
+}
+.logo2 a{
+    color: #454545;
+}
+
+.logo a span{
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 4px;
+}
+/*diseño menu*/
+.main_menu {
+    padding-top: 28px
+}
+#nav{
+    text-align: right;
+}
+/*posicion del cuadro de bloques*/
+.main_menu ul li{
+    display: inline-block;
+    margin-left: 5px;
+    position: relative
+}
+.main_menu2 ul li{
+    display: inline-block;
+}
+
+.main_menu ul li a{
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 0 16px 0 13px;
+    line-height: 30px;
+    border-bottom: 3px solid transparent;
+    border-radius: 5px;
+}
+.main_menu2 ul li a{
+    color: #000000;
+}
+/*cuadro de subrayar*/
+.main_menu ul li.active a{
+    border-radius: 5px;
+    border-bottom: 3px ;
+}
+
+
+/*color de fondo al subrayar*/
+.main_menu ul li:hover a{
+    background: #999999;
+    border-radius: 5px;
+    border-bottom: 3px;
+}
+.main_menu2 ul li:hover a{
+    background: #e8645a;
+}
+
+/*desglozar en parte inferior*/
+
+.slider_area .carousel-indicators li {
+  background-color: #b0b8b9;
+  border: 0 none;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-block;
+  height: 5px;
+  margin: 0;
+  text-indent: -999px;
+  width: 60px;
+    margin: 0px 3px
+}
+
+.slider_area .carousel-indicators .active {
+  background-color: #e2534b;
+  height: 5px;
+  margin: 0;
+  width: 60px;
+}
+.slider_area .carousel-indicators {
+  bottom: -44px;
+}
+
+
+
+/*area final*/
+
+.area_final{
+    background:#76c7c0;
+    color: #ffffff;
+    padding-top: 20px;
+}
+.parte_final{
+  background:#008080;
+  color: #ffffff;
+  padding-top: 20px;
+
+}
+
+  
